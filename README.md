@@ -1,5 +1,27 @@
 # OpenFace 2.2.0: a facial behavior analysis toolkit
 
+### Added by me: Test Commands for OpenFace
+#### Run from build folder
+1. for videos:
+./bin/FaceLandmarkVid -f "../samples/changeLighting.wmv" -f "../samples/2015-10-15-15-14.avi"
+
+2. for images:
+./bin/FaceLandmarkImg -fdir "../samples/" -wild
+
+3. for multiple faces in videos:
+./bin/FaceLandmarkVidMulti -f ../samples/multi_face.avi
+
+4. for feature extraction (facial landmarks, head pose, AUs, gaze and HOG and similarity aligned faces):
+
+./bin/FeatureExtraction -verbose -f "../samples/default.wmv"
+
+5. webcam
+a. FetureExtraction
+./bin/FeatureExtraction -verbose -device /dev/video0
+
+b. Multi-faces landmarks
+./bin/FaceLandmarkVidMulti -verbose -device /dev/video0
+
 [![Build Status](https://travis-ci.org/TadasBaltrusaitis/OpenFace.svg?branch=master)](https://travis-ci.org/TadasBaltrusaitis/OpenFace)
 [![Build status](https://ci.appveyor.com/api/projects/status/8msiklxfbhlnsmxp/branch/master?svg=true)](https://ci.appveyor.com/project/TadasBaltrusaitis/openface/branch/master)
 
