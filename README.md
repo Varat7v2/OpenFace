@@ -20,13 +20,13 @@
 
 5. webcam
 
-a. FetureExtraction
+    a. FetureExtraction
 
-`./bin/FeatureExtraction -verbose -device /dev/video0`
+    `./bin/FeatureExtraction -verbose -device /dev/video0`
 
-b. Multi-faces landmarks
+    b. Multi-faces landmarks
 
-`./bin/FaceLandmarkVidMulti -verbose -device /dev/video0`
+    `./bin/FaceLandmarkVidMulti -verbose -device /dev/video0`
 
 [![Build Status](https://travis-ci.org/TadasBaltrusaitis/OpenFace.svg?branch=master)](https://travis-ci.org/TadasBaltrusaitis/OpenFace)
 [![Build status](https://ci.appveyor.com/api/projects/status/8msiklxfbhlnsmxp/branch/master?svg=true)](https://ci.appveyor.com/project/TadasBaltrusaitis/openface/branch/master)
