@@ -3,7 +3,7 @@
 ### Added by me: Test Commands for OpenFace
 #### Run from build folder
 1. for videos:
-./bin/FaceLandmarkVid -f "../samples/changeLighting.wmv" -f "../samples/2015-10-15-15-14.avi"
+`./bin/FaceLandmarkVid -f "../samples/changeLighting.wmv" -f "../samples/2015-10-15-15-14.avi"`
 
 2. for images:
 ./bin/FaceLandmarkImg -fdir "../samples/" -wild
