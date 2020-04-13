@@ -19,6 +19,7 @@
 `./bin/FeatureExtraction -verbose -f "../samples/default.wmv"`
 
 5. webcam
+
 a. FetureExtraction
 
 `./bin/FeatureExtraction -verbose -device /dev/video0`
